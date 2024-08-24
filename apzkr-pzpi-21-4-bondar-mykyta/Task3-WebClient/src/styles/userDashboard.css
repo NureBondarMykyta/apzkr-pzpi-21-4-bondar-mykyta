@@ -1,0 +1,364 @@
+body{
+    background: rgb(193,169,237);
+    background: linear-gradient(90deg, rgba(193,169,237,1) 0%, rgba(98,174,223,1) 50%, rgba(172,188,255,1) 100%);
+
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.notification-image{
+    margin-left: 10px;
+    color: #dddddd;
+    cursor: pointer;
+    opacity: .4;
+    transition: .5s;
+}
+.not{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    opacity: .8;
+    font-weight: bold;
+    margin-left: -10px;
+}
+.notification-image:hover{
+    opacity: 1;
+}
+.remove-button-container{
+    text-align: center;
+}
+.notifications-removeall-button{
+    margin-top: 25px;
+    width: 70%;
+    border: none;
+    padding: 7px 0;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.notifications-removeall-button:hover{
+    width: 75%;
+}
+
+.modal-notifications{
+    padding: 100px;
+}
+
+
+
+.notification-block{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+.notification-text{
+    margin: 0 15px;
+    left: 0;
+
+}
+.notifications-del-button{
+    position: absolute;
+    right: 25px;
+    border: none;
+    border-radius:10px;
+    padding: 2px 15px;
+    font-size: 15px;
+    background: red;
+    opacity: .6;
+    color: aliceblue;
+    font-weight: 500;
+    transition: .5s;
+}
+.notifications-del-button:hover{
+    opacity: 1;
+    font-weight: 600;
+
+}
+.no-notifications{
+    padding: 50px 0;
+    font-weight: 400;
+}
+.dashboard-container {
+    padding: 20px;
+    color: aliceblue;
+
+}
+.notification-time{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+
+.notification-text-block{
+    min-width: 500px;
+    border-left: 1px solid #dddddd;
+    max-width: 650px;
+}
+.modal-notifications{
+
+    min-width: 60%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    padding-top: 15px;
+}
+
+.header-right {
+    flex: 0;
+    display: flex;
+    right: 5px;
+    top: 10px;
+    position: absolute;
+}
+
+.locations {
+    margin-top: 20px;
+}
+
+.location-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.card {
+    border: 5px solid #ddd;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    .card-hint-text{
+        display: block;
+        transition: all 1s ease-in-out;
+
+    }
+}
+
+.card-body {
+    padding: 35px;
+}
+
+.card-title {
+    font-size: 1.95rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 1.3rem;
+}
+.card-btn-container{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.card-btn{
+    margin-left: 20px;
+    background: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: red;
+}
+
+.card-btn:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-btn-del{
+    color: red;
+    border: solid 1px red;
+}
+.card-btn-edit{
+    color: slateblue;
+    border: solid 1px slateblue;
+}
+
+.card-hint-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.card-hint-text{
+    color: aliceblue;
+    font-weight: lighter;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 30%;
+    color: #282c34;
+}
+.modal-img{
+    width: 25%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.modal-center{
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.pay-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.pay-button:hover {
+    background-color: #3c933c;
+}
+
+
+.modal-btn-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.del-button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.no-del{
+    background-color: green;
+}
+
+
+.btn-dashboard{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+
+.btn-dashboard:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all .15s;
+    border-radius: 15px;
+}
+
+.btn-dashboard:hover{
+    color: white;
+    cursor: pointer;
+}
+a span{
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+}
+
+.btn-dashboard:hover:after{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.add-button-container{
+    height: 100%;
+    align-content: center;
+}
+.add-button{
+    width: 50px;
+    height: 50px;
+}
+.state-normal{
+    color: aliceblue;
+    background: rgba(0, 255, 0, 0.2);
+    border-radius: 30px;
+}
+.state-warning{
+    color: aliceblue;
+    background: rgba(255, 160, 0, 0.5);
+    border-radius: 30px;
+}
+.state-danger{
+    color: aliceblue;
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 30px;
+}
+.btn-profile{
+    margin-right: 10px;
+}
+
+
+
+
+

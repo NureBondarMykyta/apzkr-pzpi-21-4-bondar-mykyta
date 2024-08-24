@@ -1,0 +1,197 @@
+
+.admin-dashboard {
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    min-height: 100vh;
+    color: #004d40;
+}
+
+.sidebar {
+    background: #00695c;
+    padding-top: 20px;
+    min-height: 100vh;
+}
+.tabble-admin{
+    opacity: .9;
+}
+
+.admin-btn{
+    position: absolute;
+    border: none;
+    bottom:20px;
+    text-align: center;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background: #004d40;
+    color: #ffffff;
+}
+
+.admin-header{
+    color: #fff;
+    margin-top: 20px;
+}
+.table .btn {
+    transition: all 0.3s ease;
+}
+
+.table .btn:hover {
+    transform: scale(1.05);
+    background: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+.admin-row-btn{
+    margin-right: 15px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+    padding: 3px 15px;
+    opacity: .8;
+}
+.del{
+    background: red;
+    color: white;
+}
+
+.edit{
+    background: green;
+    color: white;
+}
+.set-stuff{
+    background: blue;
+    color: white;
+}
+.admin-row-btn:hover{
+    font-weight: 500;
+    opacity: 1;
+}
+.drop-row{
+    display: flex;
+    justify-content: space-between;
+}
+.admin-input{
+    max-width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+table:hover{
+    background: #004d40;
+}
+
+
+.main {
+    background: #e0f7fa;
+    padding: 20px;
+}
+
+.table thead th {
+    background: #004d40;
+    color: #ffffff;
+}
+
+.table tbody tr {
+    background: #ffffff;
+    color: #004d40;
+}
+
+.table tbody tr:hover {
+    background: #b2dfdb;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border-color: #004d40;
+}
+
+.btn-outline-light:hover {
+    background: #004d40;
+    color: #ffffff;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+
+.page-button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page-button:hover {
+    background-color: #e0e0e0;
+}
+
+.page-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.page-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.admin-search-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid ;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: none;
+    transition: 0.3s;
+}
+.admin-search-input:focus{
+    box-shadow: none;
+    border: none;
+}
+.admin-locations-btn{
+    background: none;
+    border: none;
+}
+
+.admin-backup-btn{
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #e0f7fa;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+    color:#282c34;
+    transition: 0.3s;
+}
+
+.admin-backup-btn:hover{
+    opacity: 1;
+}
+.admin-backup-btn-container{
+    text-align: center;
+}
+
+

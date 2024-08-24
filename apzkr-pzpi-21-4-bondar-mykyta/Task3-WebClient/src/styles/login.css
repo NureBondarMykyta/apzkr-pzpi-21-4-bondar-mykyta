@@ -1,0 +1,51 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(188,240,216);
+    background: linear-gradient(90deg, rgba(188,240,216,1) 0%, rgba(222,255,250,1) 47%, rgba(196,255,172,1) 100%);
+    background: url("https://c.wallhere.com/photos/a3/a6/vector_landscape_minimalism-1967225.jpg!d") center center no-repeat;;
+    width: 100%;
+}
+
+.login-form {
+    width: 450px;
+    padding: 20px;
+    border: solid 1px white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 1px rgb(188,240,240);
+    background-color: rgb(13, 34, 97);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(37, 175, 104, .5);
+    color: black;
+}
+.form-control,
+.form-control:focus{
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: solid 1px white;
+    border-radius: 0;
+}
+
+.form-control:focus
+{
+    box-shadow: 0 0 0 0px white;
+}
+a{
+    color: aliceblue;
+}
+
+

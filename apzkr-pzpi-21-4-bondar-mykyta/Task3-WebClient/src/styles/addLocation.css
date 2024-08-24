@@ -1,0 +1,19 @@
+.modal-h1{
+    font-size: 50px;
+}
+.modal-text{
+    font-weight: lighter;
+}
+.modal-link{
+    color: #3c933c;
+}
+.mb-3{
+
+
+}
+.form-control:focus{
+    background: rgba(0,106,175, 0.2);
+    border-radius: 10px;
+}
+
+
