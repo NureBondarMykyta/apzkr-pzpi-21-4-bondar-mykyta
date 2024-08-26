@@ -705,9 +705,9 @@ Codable, що дозволяє ефективно перетворювати JSO
 1.	Документація Envirosuite. Офіційний ресурс про Envirosuite URL: https://envirosuite.com/solutions/environmental-management  (дата звернення 11.08.24) 
 2.	Документація Django 	URL: 
 https://docs.djangoproject.com/en/stable/ (дата звернення 12.08.24) 
-3.	Документація PostgreSQL URL: https://www.postgresql.org/docs/ (дата звернення 12.05.24) 
+3.	Документація PostgreSQL URL: https://www.postgresql.org/docs/ (дата звернення 12.08.24) 
 4.	Документація SwiftUI URL: https://developer.apple.com/xcode/swiftui/ (дата звернення 18.08.24) 
-5.	Функціональне тестування розробленого функціоналу для системи. URL: 
+5.	Функціональне тестування розробленого функціоналу для системи. URL: https://www.youtube.com/watch?v=ssH3UjXBRwI
  
  
 ДОДАТОК А 
